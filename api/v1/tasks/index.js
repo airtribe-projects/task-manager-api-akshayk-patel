@@ -83,4 +83,7 @@ function deleteTask(req, res) {
 module.exports = {
   getAllTasks,
   getTaskById,
+  createTask,
+  updateTask,
+  deleteTask,
 }
